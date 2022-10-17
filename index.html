@@ -6,10 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
     <div id="sobre">
         <div id="marca">
+            <img src="./img/terra.png" alt="zap">
             <h1>Semana de Desenvolvimento</h1>
         </div>
         <p id="exclusivo">
@@ -25,35 +29,36 @@
         <h4>Palestrantes</h4>
         <div id="usuarios">
             <!--primeira div user-->
-            <div id="usuario">
-                <img src="" alt="">
+            <div class="usuario">
+                <img src="./img/the rock.jpg" alt="A pedra">
                 <p class="nome">
-                    Hugo Bandeira
+                    Dwayne Johnson
                 </p>
                 <p class="funcao">
                     Desenvolvedor Web
                 </p>   
             </div>
             <!--segunda div user-->
-            <div id="usuario">
-                <img src="" alt="">
+            <div class="usuario">
+                <img src="./img/jim carrey.jpg" alt="Robotnik">
                 <p class="nome">
-                    Hugo Bandeira
+                    Jim Carrey
                 </p>
                 <p class="funcao">
                     Desenvolvedor Web
                 </p>
             </div>
             <!--terceira div user-->
-            <div id="usuario">
-                <img src="" alt="">
+            <div class="usuario">
+                <img src="./img/will smith.jpg" alt="Gênio da lampada">
                 <p class="nome">
-                    Hugo Bandeira
+                    Will Smith
                 </p>
                 <p class="funcao">
                     Desenvolvedor Web
                 </p>
             </div>
+        </div>
             <!--fechamento da div sobre-->
     </div>
     <!--começo da div form-->
@@ -63,6 +68,23 @@
             <p>
                 Não perca a oportunidade de aprender com especialistas e tirar suas dúvidas.
             </p>
+            <form id="registrar">
+                <div id="nome">
+                    <input type="text" name="nome" id="nome" placeholder="Nome">
+                </div>  
+                <input type="email" name="email" id="email" placeholder="Email">
+                <input type="submit" value="Cadastrar">
+            </form>
+    <!--div beneficios-->
+            <div id="beneficios">
+                <h4>Oque vamos aprender:</h4>
+                <ul>
+                    <li>Como criar o primeiro site</li>
+                    <li>Como criar uma Landing Page</li>
+                    <li>Como criar uma Página de Login</li>
+                    <li>E muitas outras opções</li>
+                </ul>
+            </div>
         </div>
     </div>
     <!--fechamento da div form-->
