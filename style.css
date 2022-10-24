@@ -94,6 +94,13 @@ body {
     background-image: url(./img/giphy.gif);
     background-size: cover;
     color: #FFF;
+    transition: 0.5s;
+}
+
+#form:hover {
+    flex: 1;
+    background-image: url(./img/data_428_gambar-live-wallpaper-8.gif);
+    transition: 0.5s;
 }
 
 #interno {
